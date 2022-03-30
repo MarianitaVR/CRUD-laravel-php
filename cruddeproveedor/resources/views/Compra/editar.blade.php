@@ -132,10 +132,10 @@
 
 
                                                   ?>
-                                                  <tr class="text-start text-gray-400 fw-bolder fs-7 text-uppercase gs-0" id="tr{{isset($compra->idCompra)?$compra->idCompra:0}}_{{$detalle->Producto_id}}">
+                                                  <tr id="tr{{isset($compra->idCompra)?$compra->idCompra:0}}_{{$detalle->Producto_id}}">
                                                     <td>
-                                                      <input class="form-control mb-2" type="hidden" name="productos_id[]" value="{{$detalle->Producto_id}}" />
-                                                      <input class="form-control mb-2"type="hidden" name="cantidades[]" id="cantidadDetalle{{isset($compra->idCompra)?$compra->idCompra:0}}_{{$detalle->Producto_id}}" value="{{$detalle->cantidadProducto}}" />
+                                                      <input type="hidden" name="productos_id[]" value="{{$detalle->Producto_id}}" />
+                                                      <input type="hidden" name="cantidades[]" id="cantidadDetalle{{isset($compra->idCompra)?$compra->idCompra:0}}_{{$detalle->Producto_id}}" value="{{$detalle->cantidadProducto}}" />
                                                       {{$detalle->Producto_id}}
                                                     </td>
                                                     <td>

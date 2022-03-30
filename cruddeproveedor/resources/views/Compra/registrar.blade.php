@@ -87,7 +87,7 @@
                           </div>
                         </div>
 
-                        <div class="post d-flex flex-column-fluid" style="" id="kt_post">
+                        <div class="post d-flex flex-column-fluid"  id="kt_post">
                           <div id="kt_content_container" class="container-xxl">
                             <div class="d-flex flex-column flex-row-fluid gap-7 gap-lg-10">
                               <div class="tab-content">
