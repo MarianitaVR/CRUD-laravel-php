@@ -10,12 +10,14 @@
             @include('components/header')
             <div class="content d-flex flex-column flex-column-fluid" id="kt_content">
                 @include('Compra/components/navbar')
+
+                <!-- Codigo de formulario para el registro -->
                 <div class="post d-flex flex-column-fluid" id="kt_post">
                     <div id="kt_content_container" class="container-xxl">
                         @if (session('status'))
                         @if (session('status')==1)
                         <div class="alert alert-success">
-                            meloooo
+                            !Su compra ha sido registrada correctamente!
                         </div>
                         @else
                         <div class="alert alert-danger">

@@ -40,10 +40,16 @@
                             </span>
                         </span>
                         <span class="menu-title">Dashboards</span>
-                        <span class="menu-arrow"></span>
+                        
                     </span>
-                    <div class="menu-sub menu-sub-accordion menu-active-bg">
                         <div class="menu-item">
+                        <a class="menu-link" href="/">
+                                <span class="menu-bullet">
+                                    <span class="bullet bullet-dot"></span>
+                                </span>
+                                <span class="menu-title">Home</span>
+                                
+                            </a>
                             <a class="menu-link" href="{{route('Proveedor.index')}}">
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
@@ -64,7 +70,7 @@
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title">Store Analytics</span>
+                                <span class="menu-title">Categoria Productos</span>
                             </a>
                         </div>
                         <div class="menu-item">
@@ -72,7 +78,7 @@
                                 <span class="menu-bullet">
                                     <span class="bullet bullet-dot"></span>
                                 </span>
-                                <span class="menu-title">Logistics</span>
+                                <span class="menu-title">Productos</span>
                             </a>
                         </div>
                         <div class="menu-item">
@@ -107,7 +113,7 @@
                                 <span class="menu-title">Landing</span>
                             </a>
                         </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
