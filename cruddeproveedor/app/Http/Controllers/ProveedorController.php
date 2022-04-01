@@ -35,6 +35,15 @@ class ProveedorController extends Controller
      */
     public function store(Request $request)
     {
+
+        $request->validate([
+            'nombreProveedor' => 'required',
+            'telefonoProveedor' => 'required',
+            'correoProveedor' => 'required',
+            'direccionProveedor' => 'required',
+            'estadoProveedor' => 'required',
+        ]);
+
         Proveedor::create($request->all());
         return redirect()->route('Proveedor.index');
     }
@@ -94,6 +103,6 @@ class ProveedorController extends Controller
         $proveedor = Proveedor::findOrFail($id);
         $proveedor->delete();
         return redirect()->route('Proveedor.index');
-    
+
     }
 }

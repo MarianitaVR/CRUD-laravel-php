@@ -40,7 +40,7 @@
                             </span>
                         </span>
                         <span class="menu-title">Dashboards</span>
-                        
+
                     </span>
                         <div class="menu-item">
                         <a class="menu-link" href="/">
@@ -48,7 +48,7 @@
                                     <span class="bullet bullet-dot"></span>
                                 </span>
                                 <span class="menu-title">Home</span>
-                                
+
                             </a>
                             <a class="menu-link" href="{{route('Proveedor.index')}}">
                                 <span class="menu-bullet">
@@ -113,7 +113,7 @@
                                 <span class="menu-title">Landing</span>
                             </a>
                         </div>
-                    
+
                 </div>
             </div>
         </div>

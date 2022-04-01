@@ -32,6 +32,9 @@
                                 <div class="fv-row w-100 flex-md-root">
                                   <label class="required form-label">Nombre Proveedor</label>
                                     <input type="text" name="nombreProveedor" class="form-control mb-2" placeholder="Nombre completo" value="" />
+                                    @error('nombreProveedor')
+                                <small>*{{$message}}</small>
+                                    @enderror
                                 </div>
                                   <div class="fv-row w-100 flex-md-root">
                                     <label class="required form-label">Telefono</label>

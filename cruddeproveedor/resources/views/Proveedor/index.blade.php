@@ -12,6 +12,31 @@
                     @include('Proveedor/components/navbar')
                     <div class="post d-flex flex-column-fluid" id="kt_post">
         <div id="kt_content_container" class="container-xxl">
+
+            <!--primera carta-->
+
+                <div class="padding" style="margin-bottom: 30px;">
+                        <div class="card card-flush" style="background-color:#DBE6FF">
+                                <div class="card-header align-items-center py-5 gap-2 gap-md-5">
+                                    <div class="card-title">
+                                        <div class="d-flex align-items-center position-relative my-1">
+                                            <h3>Registrar Proveedor</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-body pt-0">
+                                        <div class="d-flex flex-wrap gap-5">
+                                            <div class="fv-row w-100 flex-md-root">
+                                                    <p>Para registrar un nuevo proveedor necesitaras informacion muy basica, y es necesario tener esta información registrada para registrar una nueva compra.</p>
+                                            </div>
+
+                                        </div>
+                                      </div>
+                        </div>
+                </div>
+
             <div class="card card-flush">
                 <div class="card-header align-items-center py-5 gap-2 gap-md-5">
                     <div class="card-title">
@@ -81,13 +106,13 @@
                                     </a>
                                     <div class="menu menu-sub menu-sub-dropdown menu-column menu-rounded menu-gray-600 menu-state-bg-light-primary fw-bold fs-7 w-125px py-4"
                                         data-kt-menu="true">
-                                       
+
                                         <div class="menu-item px-3">
                                             <a href="{{route('Proveedor.edit', $proveedor->idProveedor)}}"
                                                 class="menu-link px-3">Editar</a>
                                         </div>
                                         <div class="menu-item px-3">
-                                            
+
 
                                         <form action="{{ route('Proveedor.destroy', $proveedor->idProveedor)}}" method="POST">
                                         @csrf
@@ -105,12 +130,19 @@
                     </table>
                 </div>
             </div>
-            <div class="padding" style="margin: 30px; text-align: center;">
-            <a href="{{route('Compra.create')}}" class="btn" style="background-color:#000C79; color: white;">Agregar Compra</a>
-            </div>
-        </div>
-    </div>
+
+            <div class="padding" style="margin: 30px;">
+                <div id="kt_content_container" class="container-xxl">
+                    <div class="padding" style="margin: 30px; text-align: center;">
+                    <a href="{{route('Compra.create')}}" class="btn" style="background-color:#000C79; color: white;">Agregar Compra</a>
                 </div>
+             </div>
+
+</div>
+
+                </div>
+            </div>
+            </div>
             </div>
         </div>
     </div>

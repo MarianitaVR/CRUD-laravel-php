@@ -12,7 +12,7 @@
 
     <link href="{{ asset('plugins/global/plugins.bundle.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('css/style.bundle.css') }}" rel="stylesheet" type="text/css" />
-
+    <link rel="stylesheet" href="">
     <title>Adminware - @yield('title')</title>
 </head>
 

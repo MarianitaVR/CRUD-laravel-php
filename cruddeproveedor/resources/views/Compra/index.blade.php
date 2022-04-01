@@ -14,6 +14,31 @@
                 <!-- Codigo de formulario para el registro -->
                 <div class="post d-flex flex-column-fluid" id="kt_post">
                     <div id="kt_content_container" class="container-xxl">
+
+                        <!--primera carta-->
+
+                <div class="padding" style="margin-bottom: 30px;">
+                        <div class="card card-flush" style="background-color:#DBE6FF">
+                                <div class="card-header align-items-center py-5 gap-2 gap-md-5">
+                                    <div class="card-title">
+                                        <div class="d-flex align-items-center position-relative my-1">
+                                            <h3>Registrar Compra</h3>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-body pt-0">
+                                        <div class="d-flex flex-wrap gap-5">
+                                            <div class="fv-row w-100 flex-md-root">
+                                                    <p>Para registrar una nueva compra deberas de tener previamente registrado el proveedor correspondiente a esta compra.</p>
+                                            </div>
+
+                                        </div>
+                                      </div>
+                        </div>
+                </div>
+
                         @if (session('status'))
                         @if (session('status')==1)
                         <div class="alert alert-success">
@@ -87,7 +112,7 @@
                                                                                 <th>Cantidad</th>
                                                                                 <th>Precio</th>
                                                                                 <th>Subtotal</th>
-                                                                                
+
                                                                             </tr>
                                                                         </thead>
                                                                         <tbody >
@@ -106,7 +131,7 @@
                                                                                     <td >{{$detalle->cantidadProducto}}</td>
                                                                                     <td>{{$detalle->precioProducto}}</td>
                                                                                     <td>{{$detalle->precioProducto*$detalle->cantidadProducto}}</td>
-                                                                                    
+
                                                                                 </tr>
                                                                             <?php
                                                                             }
