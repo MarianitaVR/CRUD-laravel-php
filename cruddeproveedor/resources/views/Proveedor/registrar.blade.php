@@ -56,7 +56,7 @@
                                                     placeholder="Nombre completo" value="" />
                                   </div>
                                     <div class="fv-row w-100 flex-md-root">
-                                      <label class="required form-label">Estado Proveedor</label>
+                                      <label class="required form-label">Estado</label>
                                         <select class="form-select mb-2" name="estadoProveedor" data-control="select2"
                                                     data-hide-search="true" data-placeholder="Seleciona un estado">
                                           <option></option>
